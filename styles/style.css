@@ -1,6 +1,11 @@
 /* Mulish font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+:root {
+  --clr-primary: #ff5400;
+  --Dark-01: #131318;
+  --Dark-02: #424247;
+}
 /* base styles */
 * {
   margin: 0;
@@ -21,4 +26,66 @@ canvas,
 svg {
   width: 100%;
   user-select: none;
+}
+
+/* Shared styles */
+.container {
+  width: 81.25%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.header__logoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.header__logoText {
+  color: var(--Dark-01);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.header__logoText > span {
+  color: var(--clr-primary);
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+  gap: 2.75rem;
+}
+
+.header__menu .header__link {
+  text-decoration: none;
+  color: var(--Dark-02);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+.header__menu .header__link.active {
+  color: var(--clr-primary);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+/* responsive styles*/
+@media (max-width: 600px) {
+  .container {
+    width: 89.33%;
+  }
 }
