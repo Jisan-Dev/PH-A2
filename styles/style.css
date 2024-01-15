@@ -137,9 +137,10 @@ svg {
     font-weight: 800;
   }
   .header__logo {
-    width: 80%;
+    height: 28.724px;
+    width: 33.516px;
   }
   .header__logoWrapper {
-    gap: 0.2rem;
+    gap: 0.6219rem;
   }
 }
