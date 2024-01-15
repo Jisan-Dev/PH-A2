@@ -26,6 +26,7 @@ canvas,
 svg {
   width: 100%;
   user-select: none;
+  display: block;
 }
 
 /* Shared styles */
@@ -83,9 +84,62 @@ svg {
   font-weight: 700;
 }
 
+.header__mobileMenu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 2rem;
+}
+.header__mobileMenu > li {
+  width: 100%;
+  text-align: center;
+}
+.header__mobileMenu > .header__closeSidebar {
+  position: absolute;
+  top: 7px;
+  justify-content: end;
+  padding-right: 10px;
+  display: flex;
+}
+
+.header__bars {
+  display: none;
+}
+
 /* responsive styles*/
 @media (max-width: 600px) {
   .container {
     width: 89.33%;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__bars {
+    display: block;
+  }
+
+  .header__logoText {
+    color: var(--Dark-01);
+    font-size: 1.3464rem;
+    font-weight: 800;
+  }
+  .header__logoText > span {
+    color: var(--clr-primary);
+    font-size: 1.3464rem;
+    font-weight: 800;
+  }
+  .header__logo {
+    width: 80%;
+  }
+  .header__logoWrapper {
+    gap: 0.2rem;
   }
 }
