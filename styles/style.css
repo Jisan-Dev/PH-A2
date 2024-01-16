@@ -247,10 +247,14 @@ svg {
 }
 
 /* choose destination */
+#choose-destination {
+  margin-bottom: 100px;
+}
 #choose-destination p.section__description {
   max-width: 643px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 .choose-destination__grid-container {
   display: grid;
@@ -348,6 +352,49 @@ svg {
     url('/Images/Rectangle\ 10.png') no-repeat, lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+/* why choose us */
+.choose-us__cards-title {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 32px 0 16px;
+}
+.choose-us__cards-description {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem; /* 162.5% */
+}
+#choose-us > header {
+  text-align: center;
+  max-width: 643px;
+  margin: 0 auto 48px;
+}
+#choose-us > main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.choose-us__card {
+  width: calc(573px - 64px);
+  padding: 32px;
+  border-radius: 16px;
+}
+#choose-us__card1 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+#choose-us__card2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+}
+#choose-us__card3 {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
 
 /* responsive styles*/
