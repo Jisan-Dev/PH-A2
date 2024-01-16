@@ -50,6 +50,10 @@ svg {
   margin-bottom: 24px;
 }
 
+.align-center {
+  text-align: center;
+}
+
 .btn__primary {
   border-radius: 8px;
   background: var(--clr-primary);
@@ -229,6 +233,7 @@ svg {
 #popular-tours {
   display: flex;
   gap: 3.125rem;
+  margin-bottom: 100px;
 }
 #popular-tours ul > li {
   list-style: inside;
@@ -239,6 +244,110 @@ svg {
 }
 #popular-tours ul {
   margin-bottom: 30px;
+}
+
+/* choose destination */
+#choose-destination p.section__description {
+  max-width: 643px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.choose-destination__grid-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+.choose-destination__grid-item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-white);
+  grid-column: 1 / span 6;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
+    url('/Images/Rectangle\ 5.png') no-repeat, lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.choose-destination__grid-item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-white);
+  grid-column: 7 / span 6;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
+    url('/Images/Rectangle\ 8.png') no-repeat, lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.choose-destination__grid-item3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-white);
+  grid-column: 1 / span 4;
+  height: 286px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
+    url('/Images/Rectangle\ 6.png') no-repeat, lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.choose-destination__grid-item4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-white);
+  grid-column: 5 / span 5;
+  height: 286px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
+    url('/Images/Rectangle\ 7.png') no-repeat, lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.choose-destination__grid-item5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-white);
+  grid-column: 10 / span 3;
+  height: 286px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
+    url('/Images/Rectangle\ 9.png') no-repeat, lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.choose-destination__grid-item6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-white);
+  height: 300px;
+  grid-column: 1 / span 5;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
+    url('/Images/Rectangle\ 11.png') no-repeat, lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.choose-destination__grid-item7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-white);
+  grid-column: 6 / span 7;
+  height: 300px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
+    url('/Images/Rectangle\ 10.png') no-repeat, lightgray 50% / cover no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 /* responsive styles*/
@@ -305,5 +414,15 @@ svg {
   #popular-tours {
     flex-direction: column;
     gap: 1.5rem;
+  }
+
+  /* choose destination */
+  .choose-destination__grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .choose-destination__grid-container > div {
+    grid-column: span 1;
   }
 }
