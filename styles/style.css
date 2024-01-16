@@ -591,6 +591,10 @@ footer hr {
   .container {
     width: 89.33%;
   }
+  .header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
   .header__menu {
     display: none;
   }
@@ -620,6 +624,9 @@ footer hr {
   #banner {
     padding-right: 16px;
     padding-left: 16px;
+    height: 100%;
+    padding-bottom: 20px;
+    padding-top: 67px;
     /* height: 100%; */
   }
   .banner__form {
@@ -694,7 +701,7 @@ footer hr {
     gap: 1rem;
   }
   .newsletterimg {
-    width: 335px;
+    width: 100%;
     height: 300px;
   }
   .newsletterimg > .newsletter__promotag {
