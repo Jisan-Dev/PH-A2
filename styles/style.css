@@ -178,6 +178,8 @@ canvas {
 .banner__contentContainer .section__description {
   max-width: 676px;
   color: var(--clr-white);
+  margin-right: auto;
+  margin-left: auto;
 }
 .banner__title {
   color: var(--clr-white);
