@@ -147,7 +147,7 @@ canvas {
 
 /* Banner Section */
 #banner {
-  background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+  background-image: url('../Images/Group 13 (1) (1).png');
   background-size: cover;
   background-position: center center;
   height: 500px;
@@ -275,7 +275,7 @@ canvas {
   height: 300px;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
-    url('/Images/Rectangle\ 5.png') no-repeat, lightgray 50% / cover no-repeat;
+    url('../Images/Rectangle 5.png') no-repeat, lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -288,7 +288,7 @@ canvas {
   height: 300px;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
-    url('/Images/Rectangle\ 8.png') no-repeat, lightgray 50% / cover no-repeat;
+    url('../Images/Rectangle 8.png') no-repeat, lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -301,7 +301,7 @@ canvas {
   height: 286px;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
-    url('/Images/Rectangle\ 6.png') no-repeat, lightgray 50% / cover no-repeat;
+    url('../Images/Rectangle 6.png') no-repeat, lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -314,7 +314,7 @@ canvas {
   height: 286px;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
-    url('/Images/Rectangle\ 7.png') no-repeat, lightgray 50% / cover no-repeat;
+    url('../Images/Rectangle 7.png') no-repeat, lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -327,7 +327,7 @@ canvas {
   height: 286px;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
-    url('/Images/Rectangle\ 9.png') no-repeat, lightgray 50% / cover no-repeat;
+    url('../Images/Rectangle 9.png') no-repeat, lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -340,7 +340,7 @@ canvas {
   grid-column: 1 / span 5;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
-    url('/Images/Rectangle\ 11.png') no-repeat, lightgray 50% / cover no-repeat;
+    url('../Images/Rectangle 11.png') no-repeat, lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -353,7 +353,7 @@ canvas {
   height: 300px;
   border-radius: 16px;
   background: linear-gradient(0deg, rgba(19, 19, 24, 0.2) 0%, rgba(19, 19, 24, 0.2) 100%),
-    url('/Images/Rectangle\ 10.png') no-repeat, lightgray 50% / cover no-repeat;
+    url('../Images/Rectangle 10.png') no-repeat, lightgray 50% / cover no-repeat;
   background-size: cover;
   background-position: center center;
 }
@@ -433,17 +433,17 @@ div[class^='deals__outerbox'] {
 }
 .deals__outerbox1 {
   justify-content: flex-end;
-  background: url('/Images/Group\ 39.png');
+  background: url('../Images/Group 39.png');
   background-repeat: no-repeat;
 }
 .deals__outerbox2 {
   /* justify-content: flex-end; */
-  background: url('/Images/Group\ 40.png');
+  background: url('../Images/Group 40.png');
   background-repeat: no-repeat;
 }
 .deals__outerbox3 {
   justify-content: flex-end;
-  background: url('/Images/Group\ 39.png');
+  background: url('../Images/Group 39.png');
   background-repeat: no-repeat;
 }
 div[class^='deals__innerbox'] {
