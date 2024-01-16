@@ -527,7 +527,9 @@ div[class^='deals__innerbox'] {
 
 .newsletterimg {
   position: relative;
+  width: 100%;
 }
+
 .newsletterimg > .newsletter__promotag {
   position: absolute;
   bottom: 47px;
