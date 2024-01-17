@@ -62,6 +62,7 @@ canvas {
   padding: 14px 34px;
   font-size: 1.25rem;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .hide {
