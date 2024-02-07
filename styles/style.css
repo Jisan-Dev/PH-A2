@@ -63,6 +63,11 @@ canvas {
   font-size: 1.25rem;
   font-weight: 800;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn__primary:hover {
+  border-radius: 16px;
 }
 
 .hide {
